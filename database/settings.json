@@ -1,0 +1,37 @@
+{
+    "sound": false,
+	"last_catch":"2021-04-13 10:44:00",
+	"hora_final":"2021-04-15 19:20:00",
+	"coin_pair":"DOGE-USDT",
+	"unit":"oneMin",
+	"interval":"1",
+    "tradeParameters": {
+        "tickerInterval": "TICKER_INTERVAL",
+        "buy": {
+            "btcAmount": 0,
+            "rsiThreshold": 20,
+            "24HourVolumeThreshold": 0,
+            "minimumUnitPrice": 0,
+            "maxOpenTrades": 0
+        },
+        "sell": {
+            "lossMarginThreshold": 0,
+            "rsiThreshold": 85,
+            "minProfitMarginThreshold": 0,
+            "profitMarginThreshold": 0
+        }
+    },
+    "pauseParameters": {
+        "buy": {
+            "rsiThreshold": 0,
+            "pauseTime": 10
+        },
+        "sell": {
+            "profitMarginThreshold": 0,
+            "pauseTime": 0
+        },
+        "balance": {
+            "pauseTime": 0
+        }
+    }
+}
