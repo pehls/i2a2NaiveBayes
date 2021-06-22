@@ -127,5 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Files
 database/~$indicadores petrobras_fase 1_ v1.2.xlsx
 database/secrets.json
+macd.csv
